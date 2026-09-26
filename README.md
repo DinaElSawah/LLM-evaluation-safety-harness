@@ -89,14 +89,6 @@ python -m unittest discover -s tests -v
 
 This was built and verified in a sandboxed environment with no network access, so I couldn't run it against real OpenAI/Anthropic endpoints from there. Rather than skip verification, I designed the whole thing around a provider interface specifically so the **logic** — threshold checking, JSON parsing, report generation, judge-failure handling — could be fully unit-tested against a fake provider instead. That's not a workaround; it's the same reason you'd mock an external API in any real test suite, whether or not the network happens to be reachable. `sample_report.md` was generated from realistic hand-written example data (see `generate_sample_report.py`) specifically to show the real output format without requiring a live key. The actual API integration in `providers/` follows each vendor's documented SDK interface and is ready to run the moment you add a key.
 
-## Part of the portfolio series
-
-- [AI Enablement Playbook](https://github.com/DinaElSawah/ai-enablement-playbook) — the strategy layer this harness's evaluation approach comes from
-- [GenAI Onboarding Workshop Kit](https://github.com/DinaElSawah/Genai-onboarding-workshop-kit)
-- [AI Adoption Scorecard](https://github.com/DinaElSawah/AI-adoption-scorecard)
-- [AI Curriculum Framework](https://github.com/DinaElSawah/ai-curriculum-framework)
-- **LLM Evaluation & Safety Harness** *(this repo)* — the technical implementation behind the evaluation claims made elsewhere in this portfolio
-
 ## About
 
 Built by Dina El Sawah — AI Training & Enablement specialist. [LinkedIn](https://www.linkedin.com/in/dina-elsawah)

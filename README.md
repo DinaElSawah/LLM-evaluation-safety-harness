@@ -96,7 +96,6 @@ python -m unittest discover -s tests -v
 - [AI Enablement Playbook](https://github.com/DinaElSawah/ai-enablement-playbook) — the strategy layer this harness's evaluation approach comes from
 - [GenAI Onboarding Workshop Kit](https://github.com/DinaElSawah/Genai-onboarding-workshop-kit)
 - [AI Adoption Scorecard](https://github.com/DinaElSawah/AI-adoption-scorecard)
-- [AI Curriculum Framework](https://github.com/DinaElSawah/ai-curriculum-framework)
 - **LLM Evaluation & Safety Harness** *(this repo)* — the technical implementation behind the evaluation claims made elsewhere in this portfolio
 
 ## About
